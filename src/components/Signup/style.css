@@ -1,0 +1,88 @@
+.user-wrapper{
+    position: relative; 
+    width: 250px;
+} 
+
+.user-icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none; 
+
+}
+
+.user-input{
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* left padding for the icon */
+    box-sizing: border-box;
+} 
+
+.email-wrapper{
+    position: relative; 
+    width: 250px;
+} 
+
+.email-icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none; 
+
+}
+
+.email-input{
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* left padding for the icon */
+    box-sizing: border-box;
+} 
+
+.password-wrapper{
+    position: relative; 
+    width: 250px;
+} 
+
+.password-icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none; 
+
+}
+
+.password-input{
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* left padding for the icon */
+    box-sizing: border-box;
+} 
+
+.signup-container{ 
+    background-color: black; 
+    height: 60vh;  
+    width: 50vw;
+    border: 1px black solid; 
+    border-radius: 45px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    position: fixed; /* <-- important: fixed, not absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.signup-heading{
+    color: white;
+}  
+
+.signup-span{ 
+    color: blue; 
+    text-decoration: underline;
+
+}
