@@ -10,7 +10,9 @@ const Home = () => {
   }, []);
 
   const geteventsData = async () => {
-    const url = 'https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&type=reco';
+    const url = `https://gg-backend-assignment.azurewebsites.net/api/Events?code=${import.meta.env.VITE_AZURE_CODE}&type=reco`;
+
+
     console.log(url)
     try {
       const response = await fetch(url);

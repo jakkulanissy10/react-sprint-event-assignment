@@ -12,7 +12,7 @@ import Streams from './components/Streams';
 import Sports from './components/Sports';
 import './App.css'; 
 
-// 🧠 Extracted inner logic into a function component to use hooks
+
 const AppContent = () => {
   const location = useLocation();
   const hideHeader = location.pathname === '/login' || location.pathname === '/signup';
